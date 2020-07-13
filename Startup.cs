@@ -27,7 +27,7 @@ namespace SignalRChat
             services.AddCors(options =>
             {
                 options.AddPolicy("CorsPolicy", builder => builder
-                .WithOrigins("http://localhost:4200", "https://diegomfr.github.io/")
+                .WithOrigins("http://localhost:4200", "https://diegomfr.github.io")
                 .AllowAnyMethod()
                 .AllowAnyHeader()
                 .AllowCredentials());
